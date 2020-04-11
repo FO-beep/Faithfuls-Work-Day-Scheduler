@@ -1,122 +1,122 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    line-height: 1;
-    margin-bottom: 15px;
-    background-color: black;
-  }
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  margin-bottom: 15px;
+  background-color: black;
+}
 
-  .container{
-    height: 100px;
-  }
-  
-  #textarea{
-    background: transparent;
-    border: none;
-    resize: none;
-    color: #000000;
-    border-left: 1px solid black;
-    padding: 10px;pu
-  }
+.container {
+  height: 100px;
+}
 
-  #textarea{
-    width: 100%;
-    height: 100%;
+#textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
 
-  }
-  
-  .jumbotron {
-    text-align: center;
-    background-color: hotpink;
-    color: black;
-    border-radius: 0;
-    border-bottom: 10px solid black;
-  }
-  
-  .description{
-    white-space: pre-wrap;
-  }
-  
-  .time-block{
-    text-align: center;
-    border-radius: 15px;
-    color: hotpink ;
-  }
-  
+}
+
+#textarea {
+  width: 100%;
+  height: 100%;
+
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: hotpink;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+  color: hotpink;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid black;
+}
+
+#hour {
+  background-color: #ffffff;
+  color: black;
+  border-top: 1px dashed #000000;
+}
+
+.past {
+  background-color: darkolivegreen;
+  color: white;
+}
+
+.present {
+  background-color: powderblue;
+  color: white;
+}
+
+.future {
+  background-color: mediumslateblue;
+  color: white;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: darkblue;
+  color: seashell;
+}
+
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+
+.fa-save:before {
+
+  color: hotpink;
+}
+
+.clearBtn {
+  float: center;
+  border-radius: 10px;
+  background-color: darkblue;
+  color: hotpink;
+  opacity: 1;
+  font-size: 25px;
+  padding: 5px;
+  margin: auto;
+  display: block;
+}
+
+.clearBtn:Hover {
+  font-size: 30px;
+  opacity: 0.6;
+  transition: all .3s ease-in-out;
+}
+
+
+
+
+
+
+@media (max-width: 600px) {
   .row {
-    white-space: pre-wrap;
-    height: 80px;
-    border-top: 1px solid black;
+    margin-left: 2%;
+    margin-right: 2%;
   }
-  
-  #hour {
-    background-color: #ffffff;
-    color: black;
-    border-top: 1px dashed #000000;
-  }
-  
-  .past {
-    background-color: darkolivegreen;
-    color: white;
-  }
-  
-  .present {
-    background-color: powderblue;
-    color: white;
-  }
-  
-  .future {
-    background-color: mediumslateblue;
-    color: white;
-  }
-
-  .saveBtn {
-    border-left: 1px solid black;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: darkblue;
-    color: seashell;
-  }
-
-
-  .saveBtn i:hover {
-    font-size: 20px;
-    transition: all .3s ease-in-out;
-  }
- 
-
-  .fa-save:before {
-  
-    color: hotpink;
-  }
-
-  .clearBtn {
-    float: center;
-    border-radius: 10px;
-    background-color:   darkblue;
-    color: hotpink;
-    opacity: 1;
-    font-size: 25px;
-    padding: 5px;
-    margin: auto;
-    display: block;
-  }
-  
-  .clearBtn:Hover {
-    font-size: 30px;
-    opacity: 0.6;
-    transition: all .3s ease-in-out;
-  }
-  
-
-
-
-
-  
-  @media (max-width: 600px) {
-    .row {
-      margin-left: 2%;
-      margin-right: 2%;
-    }
-  }
- 
+}
